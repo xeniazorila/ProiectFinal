@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-boxs;
+}
+
+body {
+  margin: 0%;
+}
+
+.links {
+  list-style-type: none;
+  margin: 0%;
+  overflow: hidden;
+  background-color: #d66523;
+
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.container {
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 70px;
+  text-shadow: 2px 2px 4px #000000;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#paine {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0%;
+  padding-top: 25px;
+  height: 500px;
+  object-fit: cover;
+  opacity: 70%;
+
+}
+
+/* am facut pagina acasa*/
+
+/* se incepe pagina contacte*/
+.contact {
+  font-size: 50px;
+  margin: 20px;
+}
+
+form {
+  margin-left: 30px;
+}
+
+input {
+  padding: 8px 16px;
+  margin: 2px 0;
+
+}
+
+.follow {
+  margin: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#media {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  justify-content: center;
+  left: 600px;
+  padding: 10px;
+
+
+
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: right;
+  width: 200px;
+  margin-top: 40px;
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 200px;
+  height: 150px;
+
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/*sectia ingrediente*/
+#pngingrid {
+  width: 650px;
+  height: 450px;
+  float: right;
+  margin-top: 70px;
+}
+
+.ingrid {
+  margin: 20px;
+
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px;
+  font-size: 20px;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #ffeaa7;
+}
+
+/*paragraf1*/
+.intro {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/*mod de preparare*/
+.prepar {
+  width: 100%;
+  display: block;
+  margin: 20px;
+}
+
+ol {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+/* sugestii*/
+.sugests {
+  width: 100%;
+  display: block;
+  margin: 20px;
+  font-size: 25px;
+}
+
+.sug {
+  font-size: 20px;
+}
+
+/* despre noi*/
+iframe {
+  margin: 20px;
+  float: right;
+  margin-top: 70px;
+}
+
+.despre {
+  margin: 20px;
+  font-size: 20px;
+}
